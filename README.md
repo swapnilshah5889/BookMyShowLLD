@@ -12,8 +12,6 @@ Application to book movie tickets online
 - [Testing](#testing)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
 
 ## Introduction
 
