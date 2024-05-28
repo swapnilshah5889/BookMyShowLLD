@@ -47,9 +47,9 @@ Before you begin, ensure you have met the following requirements:
 1. Using Maven:
     mvn spring-boot:run
 
-   2. Using the JAR file:
+2. Using the JAR file:
    After building the project, you can run the JAR file:
-      java -jar target/BookMyShowLLD-0.0.1-SNAPSHOT.jar
+   java -jar target/BookMyShowLLD-0.0.1-SNAPSHOT.jar
 
 ## Testing
    To run tests, use the following command:
