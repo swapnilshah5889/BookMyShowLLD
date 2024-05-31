@@ -1,8 +1,5 @@
-package com.swapnilshah5889.BookMyShow;
+package com.swapnilshah5889.BookMyShow.models;
 
-import com.swapnilshah5889.BookMyShow.models.Auditorium;
-import com.swapnilshah5889.BookMyShow.models.BaseModel;
-import com.swapnilshah5889.BookMyShow.models.City;
 import jakarta.persistence.Entity;
 import jakarta.persistence.ManyToOne;
 import jakarta.persistence.OneToMany;

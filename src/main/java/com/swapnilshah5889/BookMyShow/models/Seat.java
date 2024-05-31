@@ -18,6 +18,7 @@ public class Seat extends BaseModel {
     @Enumerated(EnumType.ORDINAL)
     private SeatType seatType;
 
+    @Column(name = "`row`", nullable = false)
     private int row;
 
     @Column(name = "col")

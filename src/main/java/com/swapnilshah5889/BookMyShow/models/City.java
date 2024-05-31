@@ -1,7 +1,6 @@
 package com.swapnilshah5889.BookMyShow.models;
 
 
-import com.swapnilshah5889.BookMyShow.Theatre;
 import jakarta.persistence.Entity;
 import jakarta.persistence.OneToMany;
 import lombok.Getter;
