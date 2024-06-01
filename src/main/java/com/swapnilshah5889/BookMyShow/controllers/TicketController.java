@@ -4,7 +4,10 @@ import com.swapnilshah5889.BookMyShow.dtos.BookTicketRequestDTO;
 import com.swapnilshah5889.BookMyShow.dtos.BookTicketResponseDTO;
 import com.swapnilshah5889.BookMyShow.dtos.CancelRequestDTO;
 import com.swapnilshah5889.BookMyShow.dtos.CancelResponseDTO;
+import org.springframework.stereotype.Controller;
 
+
+@Controller
 public class TicketController {
 
     public BookTicketResponseDTO bookTicket(BookTicketRequestDTO request) {
