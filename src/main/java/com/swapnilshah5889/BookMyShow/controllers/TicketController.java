@@ -23,13 +23,21 @@ public class TicketController {
 
     public BookTicketResponseDTO bookTicket(BookTicketRequestDTO request) {
 
-        Ticket ticket = ticketService.bookTicket(
-                request.getShowSeatIds(),
-                request.getUserId()
-        );
         BookTicketResponseDTO response = new BookTicketResponseDTO();
-        response.setTicket(ticket);
-        response.setStatus(ResponseStatus.SUCCESS);
+        try{
+
+            Ticket ticket = ticketService.bookTicket(
+                    request.getShowSeatIds(),
+                    request.getUserId()
+            );
+            response.setTicket(ticket);
+            response.setStatus(ResponseStatus.SUCCESS);
+
+        }
+        catch (Exception e) {
+            response.setStatus(ResponseStatus.FAILURE);
+        }
+
         return response;
 
     }
